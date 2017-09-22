@@ -21,3 +21,8 @@ Method Used :  Counting the number of 'high' and 'low' values produced and based
                on it producing a value which brings the total number of high values
                closer to 73% of overall produced values for a given number.
 
+Suggested Improvements : Instead of storing 'high' and 'low' values in lists, it can
+                         be stored in tree which could reduce the access time for
+                         element from O(n) to O(logn).
+                         if possible, avoide storing the complete list of values to
+                         save memory.
