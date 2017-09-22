@@ -78,7 +78,7 @@ if __name__ == "__main__":
             print("Kindly provide only a single integer as higher bound of your range")
         elif number[0].isdigit():
             number = int(number[0])
-            if number > 2:
+            if number > 1:
                 obj = GenerateRandomNumber(number)
                 random_number = obj.get_number(number)
                 print("Your number is {0}".format(random_number))
